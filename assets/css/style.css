@@ -1,0 +1,158 @@
+/* <!--====================== Google Fonts ======================--> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* <!--====================== VARIABLES CSS ======================--> */
+
+:root{
+
+/* <!--====================== COLORS ======================--> */
+
+    --first-color: rgb(255, 153, 0);
+    --text-color: rgb(18, 18, 18);
+    --title-color:  #5BC0DE;
+    --body-color: ;
+
+
+/* <!--====================== FONTS ======================--> */   
+
+--body-font: 'Poppins', sans-serif;
+
+}
+
+/* <!--====================== BASE ======================--> */   
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--body-font);
+}
+.m-0{
+    margin: 0 !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+
+
+.bg-orange{
+
+    background-color: var(--first-color) !important;
+}
+
+/* <!--====================== Text ======================--> */   
+
+.text-poppins{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-first{
+
+    color: var(--title-color);
+}
+
+.text-body{
+    color: var(--text-color);
+}
+
+.text-large{
+    font-size: 5rem;
+}
+
+.text-normal{
+    font-size: 1.5rem;
+}
+
+.text-small{
+    font-size: 1rem;
+}
+
+.text-bold{
+    font-weight: bold !important;
+}
+
+.text-custom-light{
+    font-weight: 300 !important;
+}
+
+/* <!--====================== Margins ======================--> */   
+
+.mt-6{
+    margin-top: 7rem;
+}
+
+/* <!--====================== IMAGE ======================--> */   
+
+.img-responsive{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+/* <!--====================== WIDTH ======================--> */   
+
+.max-width-90{
+max-width: 90% !important;
+}
+
+.max-height-90{
+    max-height: 90% !important;
+
+}
+
+
+
+
+/* <!--====================== Responsivitity ======================--> */   
+
+        /* <!--====================== Container ======================--> */   
+
+@media (min-width: 1200px) {
+    .container-fixed{
+        max-width: 1000px !important;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .container-fixed{
+        max-width: 1000px !important;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .container-fixed{
+        max-width: 1000px !important;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    .container-fixed{
+        max-width: 1000px !important;
+        padding: 0 2rem !important;
+    }
+    
+    
+}
+
+@media (max-width: 576px) {
+    .container-fixed{
+        max-width: 1000px !important;
+        padding: 0 1.2rem !important;
+    }
+    
+    
+}
+
+
+
+ 
